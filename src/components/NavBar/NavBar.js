@@ -1,4 +1,4 @@
-import './NavBar.css';
+import './_NavBar.scss';
 import '../CartWidget/CartWidget';
 
 
@@ -33,12 +33,11 @@ const NavBar = () => {
             <div className="logo">
                 <h1>KACZUR</h1>  
                 <h2>Quincho, jardín & imanes</h2>
+            </div>
 
             <button className="mobile-nav-toggle" aria-controls="navbar" aria-expanded="false">
                 <span className="sr-only">Menu</span>
             </button>
-
-            </div>
         </nav>
     )
 }
